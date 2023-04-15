@@ -8,7 +8,7 @@ import AuthLayout from "./pages/AuthLayout";
 
 const router = createBrowserRouter([
     {
-        path: '/auth',
+        path: '/',
         element: <AuthLayout/>,
         children: [
             {
